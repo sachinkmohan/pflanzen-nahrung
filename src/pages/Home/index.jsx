@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "../../components/Home/Header";
 
 const Home = () => {
     return(
         <div>
-            <h1>Home Page</h1>
+            {/* Page Header */}
+            <Header/>
+            {/* Search Bar */}
+            {/* Blog List & Empty List */}
         </div>
     )
 }
