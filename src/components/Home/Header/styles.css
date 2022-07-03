@@ -1,0 +1,44 @@
+.home-header {
+    text-align: center;
+}
+
+.home-header {
+    color: #0080ff;
+    font-size: 2rem;
+}
+
+.home-header h1 {
+    font-size: 3rem;
+    color: #0f52ba;
+    margin-bottom: 1rem;
+}
+
+.home-header h1 span{
+    color: #b0c4de;
+}
+
+.home-header p{
+    color: #50c878;
+    font-weight: 500;
+}
+
+.App-logo {
+    height: 15vmin;
+    pointer-events: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
